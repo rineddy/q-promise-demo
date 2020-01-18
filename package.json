@@ -1,0 +1,18 @@
+{
+  "name": "paco-q-promise-demo",
+  "version": "1.0.0",
+  "description": "ES6 promises  with Q promises ",
+  "main": "index.js",
+  "dependencies": {
+    "Q": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc-watch": "tsc -w"
+  },
+  "author": "eddy",
+  "license": "ISC"
+}
