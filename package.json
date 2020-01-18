@@ -2,17 +2,20 @@
   "name": "paco-q-promise-demo",
   "version": "1.0.0",
   "description": "ES6 promises  with Q promises ",
-  "main": "index.js",
+  "main": "./out/app.js",
+  "author": "eddy",
+  "license": "ISC",
   "dependencies": {
-    "Q": "^1.0.0"
+    "@types/q": "^1.5.2",
+    "@types/requirejs": "^2.1.31",
+    "q": "^1.5.1",
+    "requirejs": "^2.3.6"
   },
   "devDependencies": {
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc-watch": "tsc -w"
-  },
-  "author": "eddy",
-  "license": "ISC"
+    "build-ts": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
