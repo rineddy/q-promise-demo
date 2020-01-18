@@ -1,5 +1,5 @@
 {
-  "name": "paco-q-promise-demo",
+  "name": "q-promise-demo",
   "version": "1.0.0",
   "description": "ES6 promises  with Q promises ",
   "main": "./out/app.js",
